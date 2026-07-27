@@ -1,19 +1,48 @@
 aid: glamst
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/glamst.png
 name: GlamSt
-description: GlamSt is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  GlamSt (GlamST LLC) builds customized virtual makeover and try-on solutions
+  for beauty brands and retailers, combining augmented reality (AR), artificial
+  intelligence, and machine learning to power virtual makeup and cosmetics
+  try-on across mobile, web, and in-store experiences. Founded with offices in
+  San Francisco, Montevideo (Uruguay), and Wilmington (Delaware), the company
+  was surfaced as a portfolio company of 500 Global and added to the API
+  Evangelist network. GlamSt was acquired by Ulta Beauty in 2018 and integrated
+  into Ulta's digital innovation team; it exposes no public developer portal,
+  API, SDK, or documentation surface, so this profile is identity-only.
 url: https://raw.githubusercontent.com/api-evangelist/glamst/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
+x-status: acquired
+x-acquired-by: ulta-beauty
 x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Beauty
+- Augmented Reality
+- Artificial Intelligence
+- Machine Learning
+- Virtual Try-On
+- Cosmetics
+- Retail
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/glamst-domain-security.yml
 - type: Website
   url: https://glamst.com
+- type: PrivacyPolicy
+  url: https://glamst.com/privacy.html
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
