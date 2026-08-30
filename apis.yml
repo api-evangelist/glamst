@@ -70,6 +70,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/ulta-beauty/
+  name: Ulta Beauty
+  x-relationship: acquired
+  x-evidence: "GlamSt was acquired by Ulta Beauty in 2018 and integrated into Ulta's digital innovation team; it exposes no public developer portal, API, SDK, or documentation surface, so this profile is identity-only."
 - type: DomainSecurity
   url: security/glamst-domain-security.yml
 - type: Website
