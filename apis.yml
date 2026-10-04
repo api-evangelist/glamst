@@ -50,7 +50,7 @@ tags:
 - Beauty
 - Augmented Reality
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Virtual Try-On
 - Cosmetics
 - Retail
@@ -63,6 +63,7 @@ tags_raw:
 - Virtual Try-On
 - Cosmetics
 - Retail
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
